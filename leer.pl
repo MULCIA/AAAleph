@@ -2,10 +2,20 @@
 :- aleph.
 
 % Parámetros
+:- set(i,2).
 
 % Declaraciones de modo
+:- mode(1,leer(+ejemplo)).
+:- mode(1,autor(+ejemplo,#autor)).
+:- mode(1,tema(+ejemplo,#tema)).
+:- mode(1,longitud(+ejemplo,#longitud)).
+:- mode(1,sitio(+ejemplo,#sitio)).
 
 % Determinaciones
+:-determination(leer/1, autor/2).
+:-determination(leer/1, tema/2).
+:-determination(leer/1, longitud/2).
+:-determination(leer/1, sitio/2).
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
