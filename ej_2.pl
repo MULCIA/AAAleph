@@ -8,8 +8,8 @@
 % Declaraciones de modo
 
 :-mode(1,inter(+n)).
-:-modeb(*,mayor_o_igual_que(+n,#n)).
-:-modeb(*,menor_o_igual_que(+n,#n)).
+:-mode(*,mayor_o_igual_que(+n,#n)).
+:-mode(*,menor_o_igual_que(+n,#n)).
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Determinaciones
